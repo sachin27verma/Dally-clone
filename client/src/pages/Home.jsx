@@ -245,7 +245,7 @@ const Home = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/api/v1/post",
+        "https://dall-e-7qrm.onrender.com/api/v1/post",
         {
           method: "GET",
           headers: {
